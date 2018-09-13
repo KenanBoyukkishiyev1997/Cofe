@@ -1,0 +1,61 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+header{
+	background-image: url(../Img/cofe.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 220px;
+}
+.conteniar{
+	width: 80%;
+	margin: auto;
+}
+
+
+.title{
+	color: #fff;
+	margin-bottom: 40px;
+}
+
+
+.text{
+	color: #fff;
+	width: 40%;
+	margin-bottom: 20px;
+	font-family: 'Dancing Script', cursive;
+
+}
+
+.btn button{
+	background-color: blue;
+	color: #fff;
+	height: 23px;
+	width: 100px;
+}
+
+
+section{
+	padding: 20px;
+}
+
+section .title{
+	text-align: center;
+	color: gainsboro;
+}
+
+section .fetures{
+	border: 2px solid gainsboro;
+	display: flex;
+}
+
+section .fetures .tags{
+	text-align: center;
+	border-right: 2px solid gainsboro;
+	padding: 20px;
+}
+
+section .fetures .tags i{
+	font-size: 40px;
+}
